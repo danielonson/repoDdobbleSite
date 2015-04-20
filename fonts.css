@@ -1,0 +1,25 @@
+
+
+
+
+body {
+ font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 5px
+}
+
+.center{margin: 0px auto;padding: 0px}
+
+h1,h2,h3,h4,h5,h6,p {
+ line-height: 100%;
+}
+h1 { font-size: 60px;font-family: 'Lato', sans-serif; font-weight: 700;margin: 10px }
+h2 { font-size: 30px; font-family: 'Fugaz One', cursive;font-weight: 100}
+h3 { }
+
+p{  font-family: 'Lato', sans-serif;
+	font-size: 16px;font-weight: 300;
+	margin-top: 25px !important
+}

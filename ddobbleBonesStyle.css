@@ -1,0 +1,132 @@
+html, body, div, p, ul, li, a{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	text-decoration: none;
+	color: #222222;
+ }
+header{
+	display: block;
+	width: 100%;
+	min-height: 500px;
+	background: url(img/bg3Bn.jpg) fixed;
+	background-position: bottom;
+	overflow: hidden;
+}
+
+nav{
+	overflow: hidden;
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	width: 100%;
+	height: 50px;
+	background: #003333;
+}
+nav ul{
+
+}
+nav ul li{
+	display: inline-block;
+	border-right: solid 1px #99CCCC;
+	margin-right: 30px;
+	padding-right: 30px;
+}
+nav ul li:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+nav ul li a{
+	color: #CC9933;
+}
+nav ul li a:hover{
+	color: #FFFFCC;
+}
+
+h1{
+	font-size: 50pt;
+	color:#CC6666;
+}
+h2{
+	font-size: 30pt;
+	color: #339999;
+}
+
+#main{
+	width: 100%;
+	min-height: 200px;
+	display: block;
+	overflow: hidden;
+}
+section{
+	display: block;
+	width: 100%;
+	min-height: 500px;
+	margin-top: 10px; 
+	position: relative;
+}
+section p {
+	width: 40%;
+}
+
+footer{
+	width:100%;
+	min-height:200px;
+	background: gray;
+}
+
+.center{
+	margin: 15px auto;
+	display: table;
+	text-align: center;
+}
+
+.anchor{
+	position: absolute;
+	top:-50px;
+}
+.square{
+	width:10px;
+	height: 10px;
+	display: block;
+	background: red;
+}
+
+#headerLogo{
+	width: 250px;
+	height: 277px;
+	background: url(img/logoDdobbleSm.png) no-repeat;
+	margin-top:110px; 
+}
+
+@media (max-width: 760px) {
+	header{
+		height: 209px;
+		min-height: 209px;
+	}
+	nav {
+		width: 100%;
+		height: inherit;
+	}
+	nav ul {
+		margin: 0 !important;
+		padding: 0;
+		width: 100%;
+	}
+	nav ul li{
+		display:block;
+		height: 30px;
+		width: 100%;
+		text-align: center;
+		padding: 5px 0 0 5px;
+	}
+	.anchor{
+	position: absolute;
+	top:-215px;
+	}
+	section p {
+	width: 90%;
+}
+
+}
