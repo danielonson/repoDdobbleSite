@@ -1,21 +1,61 @@
 
+/* Start General Style */
+
+	body{
+		margin: 0;
+		padding: 0;
+		background: rgb(17,48,49);
+	}
+
+/* End General Style */
+
+/* Start Text Style */
+	
+	h1{
+		color: rgb(187,218,219);
+		margin-top: 100px;
+	}
+	h2{
+		color: rgb(224,173,61);
+	}
+	p{
+		color: rgb(204,204,204);
+	}
+	.navbar-default .navbar-nav>li>a{
+		color: rgb(224,173,61);
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color: rgb(204,204,204);
+	}
+
+/* End Text Style */
+
+/* Start Nav Style */
+	.navbar-default{
+		background: rgb(17,48,49);
+	}
+	
+
+/* End Nav Style */
+
 /* Star header */
 	header{
 		min-height: 600px;
 		background: url(img/bg3Bn.jpg) no-repeat;
+		position: relative;
+		overflow: hidden;
 	}
 
 	#headerLogo{
 		width: 250px;
 		height: 277px;
 		background: url(img/logoDdobbleSm.png) no-repeat;
+		margin-top: 10%;
 	}
-
 
 /* End header */
 
-/* */
-/* */
+
 /* */
 /* */
 /* */
