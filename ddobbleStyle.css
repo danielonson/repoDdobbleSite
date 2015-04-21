@@ -55,6 +55,36 @@
 
 /* End header */
 
+/* Start  What we do Style */
+	.wireTextInput{
+		background: none;
+		border:none;
+		width:100%;
+		height: 60px;
+		border:dashed 2px rgb(51,144,148);
+		color: rgb(204,204,204);
+		font-size: 2em;
+		text-align: center;
+	}
+
+	#companyNameInput{margin-top: 60px;}
+/* End  What we do Style */
+
+/* Start How we do Style */
+	#howWeDoIlustration{
+		margin-top: 40px;
+	}
+/* End  How we do Style */
+
+/* Start  */
+/* End  */
+/* Start  */
+/* End  */
+/* Start  */
+/* End  */
+/* Start  */
+/* End  */
+
 
 /* */
 /* */
