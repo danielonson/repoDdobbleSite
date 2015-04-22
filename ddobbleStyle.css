@@ -42,6 +42,7 @@
 	header{
 		min-height: 600px;
 		background: url(img/bg3Bn.jpg) no-repeat;
+		background-size:cover;
 		position: relative;
 		overflow: hidden;
 	}
